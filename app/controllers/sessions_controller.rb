@@ -15,10 +15,4 @@ class SessionsController < ApplicationController
     session.delete :name
     redirect_to '/'
   end
-
-  private
-
-  def current_user
-    session[:name]
-  end
 end
