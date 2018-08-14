@@ -1,4 +1,4 @@
-<h1>Welcome, <%= session[:name] %>!</h1>
+<h1>Welcome, <%= current_user %>!</h1>
 
 <p><%= link_to('Here', secret_path) %> is the secret only users can see!</p>
 
