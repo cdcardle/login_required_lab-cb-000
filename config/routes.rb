@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
 
-  get 'sessions/new'
+  get '/login' => 'sessions/new'
 
-  get 'sessions/create'
+  post '/login' => 'sessions/create'
 
-  get 'sessions/destroy'
+  post '/logout' => 'sessions/destroy'
 
   root 'application#home'
 
