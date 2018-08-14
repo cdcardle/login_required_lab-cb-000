@@ -16,9 +16,6 @@ class SessionsController < ApplicationController
     redirect_to '/'
   end
 
-  def secret
-  end
-
   private
 
   def current_user
