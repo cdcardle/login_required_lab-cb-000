@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  root '/login' => 'application#home'
+  root '/login' => 'applications#home'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
