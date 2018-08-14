@@ -6,8 +6,4 @@ class ApplicationController < ActionController::Base
   def home
     redirect_to '/login' if !session[:name]
   end
-
-  def new
-
-  end
 end
